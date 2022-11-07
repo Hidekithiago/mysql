@@ -499,6 +499,7 @@ Este tutorial é com total intuito de aprender e quem sabe ajudar alguém, por h
 
 # Comandos MySQL
 <details>
-SHOW PROCESSLIST; #Mostra todos os processos em execucao
-Select concat('KILL ',id,';') from information_schema.processlist where user='nomeUser' and Time > 50; #Cria uma lista para finalizar todos os processos em execucao com tempo maior de 50s
+
+**SHOW PROCESSLIST;** #Mostra todos os processos em execucao; <br>
+**Select concat('KILL ',id,';') from information_schema.processlist where user='nomeUser' and Time > 50;** #Cria uma lista para finalizar todos os processos em execucao com tempo maior de 50s;
 </details>
