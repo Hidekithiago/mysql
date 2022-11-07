@@ -2,6 +2,7 @@
 
 
 # Tutorial de Comandos MySQL
+<details>
 
 Primeiro de tudo temos o SQL é dividido em 5 partes:
 - [DDL (**Data Definition Language** - Linguagem de Definição de Dados)](#1-data-definition-language-ddl)  São os comandos que interagem com os objetos do banco.
@@ -493,3 +494,11 @@ Este tutorial é com total intuito de aprender e quem sabe ajudar alguém, por h
 \
 \
 ![enter image description here](http://giphygifs.s3.amazonaws.com/media/jd6TVgsph6w7e/giphy.gif)
+
+</details>
+
+# Comandos MySQL
+<details>
+SHOW PROCESSLIST; #Mostra todos os processos em execucao
+Select concat('KILL ',id,';') from information_schema.processlist where user='nomeUser' and Time > 50; #Cria uma lista para finalizar todos os processos em execucao com tempo maior de 50s
+</details>
