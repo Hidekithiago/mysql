@@ -4,7 +4,7 @@
 >- **SHOW PROCESSLIST;** #Mostra todos os processos em execucao; <br>
 >- **Select concat('KILL ',id,';') from information_schema.processlist where user='nomeUser' and Time > 50;** #Cria uma lista para finalizar todos os processos em execucao com tempo maior de 50s;
 >- **SHOW FULL COLUMNS FROM table** #Mostra todas as caracteristicas das colunas de uma tabela;
->- **SHOW CREATE TABLE ** #Mostra a query de criacao da tabela;
+>- **SHOW CREATE TABLE** #Mostra a query de criacao da tabela;
 </details>
 
 
